@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="Widget.Theme.PinViewDemoApp.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+    </style>
+
+    <style name="PinItemViewStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="CircleShape">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+
+    </style>
+</resources>

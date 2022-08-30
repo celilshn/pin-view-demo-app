@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="PinItemView">
+        <attr name="number" format="integer" />
+
+    </declare-styleable>
+</resources>
