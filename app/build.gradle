@@ -6,7 +6,6 @@ plugins {
 
 android {
     compileSdk 32
-    buildToolsVersion "32.1.0-rc1"
     defaultConfig {
         applicationId "tr.com.eywin.grooz.pinviewdemoapp"
         minSdk 21
