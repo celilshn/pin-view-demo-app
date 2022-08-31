@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -29,6 +30,19 @@ android {
     }
     buildFeatures{
         viewBinding true
+    }
+}
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.celilshn'
+                artifactId = 'pinview'
+                version = '1.0.0'
+            }
+        }
     }
 }
 
